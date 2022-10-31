@@ -19,7 +19,7 @@
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background: #fff;
+  background: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease-out;
   cursor: default;
@@ -59,7 +59,7 @@
 }
 .container-card .card .contenido-card a:hover {
   background: #2fb4cc;
-  color: #fff;
+  color: white;
 }
 
 .bg-class {
@@ -102,7 +102,7 @@
 }
 
 .menuback {
-  background-image: url(../img/delicious-pizza-concept-with-copy-space\ \(1\).jpg);
+  background-image: url(../img/pizzamenufondo.jpg);
   background-size: cover;
 }
 .menuback h1 {
@@ -155,4 +155,119 @@
 .fondo2 {
   background-image: url(../img/fondito.jpg);
   background-size: cover;
+}
+
+.buttons {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.buttons a {
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+.buttons {
+  height: 60px;
+  width: 60px;
+}
+
+.card img {
+  height: 210px;
+  width: 100px;
+}
+
+.contactotrabajo {
+  background-image: url(../img/pizza.jpg);
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-box-decoration-break: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-decoration-break: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper .title h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  display: flex;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #ffffff;
+  padding: 10px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+.btn {
+  background: rgb(253, 95, 3);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

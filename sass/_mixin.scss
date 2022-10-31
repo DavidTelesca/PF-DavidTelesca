@@ -1,0 +1,12 @@
+@mixin size ($width,$height) {
+    height: $height;
+    width: $width;
+}
+
+.buttons{
+    @include size (60px,60px);
+}
+.card img{
+    @include size (100px,210px);
+}
+

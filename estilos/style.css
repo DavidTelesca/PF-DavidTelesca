@@ -116,7 +116,7 @@
 }
 
 .menubebidas {
-  background-image: url(../img/bebidasfondos.jpg);
+  background-image: url(../img/bebidasmenufondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -131,7 +131,7 @@
 }
 
 .menupostres {
-  background-image: url(../img/postres\ fondo.jpg);
+  background-image: url(../img/postresmenufondo.jpg);
   background-size: cover;
 }
 .menupostres h1 {
@@ -193,7 +193,7 @@
 }
 
 .contactotrabajo {
-  background-image: url(../img/pizza.jpg);
+  background-image: url(../img/pizza-contacto.jpg);
   background-position-y: center;
   background-position-x: center;
   background-size: cover;
